@@ -34,6 +34,10 @@ public class Main {
 		System.out.println(person2);
 		
 		box2.put(student);
+		box2.get();
+		
+		box2.put(new Teacher("János", "Tóth", 35));
+		System.out.println(box2.get());
 	}
 
 }
